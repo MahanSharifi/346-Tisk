@@ -8,19 +8,16 @@ import { ConfigService } from '../config.service';
 })
 export class VBACalcComponent implements OnInit {
 
-  vb = {
+  vba = {
     title: '',
-    date: '',
-    contentA: '',
-    contentB: '',
-    contentC: '',
-    caption: ''
+    title2:'',
+    content:''
   }
   
   constructor( public config: ConfigService ) { }
 
   ngOnInit(): void {
-    this.vb = this.config.getConfig().vb;
+    this.vba = this.config.getConfig().vba;
   }
 
 }

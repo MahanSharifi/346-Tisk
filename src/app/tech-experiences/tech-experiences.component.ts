@@ -89,33 +89,10 @@ displayed2 = true;
     date: ''
   }
 
-  youth = {
-    title: '',
-    date: '',
-    content: ''
-  }
 
-  robot = {
-    title: '',
-    date: '',
-    content: ''
-  }
-  
-  deca = {
-    title: '',
-    date: '',
-    content: '',
-    contentB: '',
-    contentC: ''
-  }
 
-  football = {
-    title: '',
-    date: '',
-    content: ''
-  }
 
-  uptake = {
+  windows = {
     title: '',
     date: ''
   }
@@ -128,11 +105,7 @@ displayed2 = true;
   ngOnInit(): void {
     this.coop = this.config.getConfig().coop;
     this.tech = this.config.getConfig().tech;
-    this.youth = this.config.getConfig().youth;
-    this.robot = this.config.getConfig().robot;
-    this.deca = this.config.getConfig().deca;
-    this.football = this.config.getConfig().football;
-    this.uptake = this.config.getConfig().uptake;
+    this.windows = this.config.getConfig().windows;
   }
 
 }

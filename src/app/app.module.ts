@@ -12,16 +12,11 @@ import { HeaderMainComponent } from './header-main/header-main.component';
 import { ConfigService } from './config.service';
 import { ContactComponent } from './contact/contact.component';
 import { RouterModule } from '@angular/router';
-import { LEDDiceComponent } from './leddice/leddice.component';
-import { BiquadrisComponent } from './biquadris/biquadris.component';
 import { VBACalcComponent } from './vba-calc/vba-calc.component';
 import { TechExperiencesComponent } from './tech-experiences/tech-experiences.component';
-import { ApiComponent } from './api/api.component';
 import { GetApiService } from './get-api.service';
 import {HttpClientModule} from '@angular/common/http'
 import { HttpClientInMemoryWebApiModule } from 'angular-in-memory-web-api';
-import { ProjectsComponent } from './projects/projects.component';
-import { VolunteerComponent } from './volunteer/volunteer.component';
 
 
 
@@ -35,13 +30,8 @@ import { VolunteerComponent } from './volunteer/volunteer.component';
     NavigationComponent,
     HeaderMainComponent,
     ContactComponent,
-    LEDDiceComponent,
-    BiquadrisComponent,
     VBACalcComponent,
     TechExperiencesComponent,
-    ApiComponent,
-    ProjectsComponent,
-    VolunteerComponent,
   ],
   imports: [
     BrowserModule,
